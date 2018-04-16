@@ -1,0 +1,160 @@
+@media screen and (min-width: 1024px) and (max-width: 1135px) {
+  .menu-link{
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .menu-link{
+    display: none;
+  }
+  .section-support .section-title{
+    font-size: 26px;
+  }
+  .section-support .support-name{
+    font-size: 17px;
+  }
+  .activitie-subtitle{
+    font-size: 15px;
+  }
+  .page-footer .social-link{
+    font-size: 12px;
+  }
+  .section-title-group .section-title{
+    font-size: 26px;
+  }
+  .section-filter .tab-link-title{
+    font-size: 18px;
+  }
+  .section-filter .tab-content input{
+    width: 15%;
+  }
+  .section-filter .tab-link-subtitle{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 767px){
+  .contact-items{
+    display: none;
+  }
+  .destinations-list{
+    flex-wrap: wrap;
+  }
+  .destinations-item {
+    width: 46%;
+    margin-right: 15px;
+  }
+  .tour-list{
+    flex-wrap: wrap;
+  }
+  .tour-item{
+    width: 95%;
+  }
+  .section-support .support-name {
+    font-size: 10px;
+  }
+  .section-support .section-title {
+    font-size: 26px;
+  }
+  .section-title-group .section-title {
+    font-size: 15px;
+  }
+  .view-more-link2{
+    font-size: 10px;
+  }
+  .activities-list{
+    flex-wrap: wrap;
+  }
+  .activitie-item{
+    width: 44%;
+  }
+  .activitie-item {
+    width: 45%;
+    margin: 27px 7px;
+  }
+  .section-support .section-title, .support-name{
+    padding: 0px;
+  }
+  .support-group-1{
+    flex-wrap: wrap;
+  }
+  .page-footer .footer-content {
+    padding: 0px;
+    flex-wrap: wrap;
+  }
+  .footer-logo{
+    margin-left: 120px;
+    margin-bottom: 30px;
+  }
+  .page-footer .email-news {
+    margin: 30px 60px;
+    width: 100%;
+  }
+  .section-support .support-item {
+    width: 50%; 
+  }
+  .supports-list{
+    flex-wrap: wrap;
+  }
+  .section-content-bg h2 {
+    font-size: 25px;
+  }
+  .btn-link{
+    font-size: 13px;
+    padding: 5px;
+  }
+  .section-subtitle-pn {
+    padding: 16px;
+    font-size: 14px;
+  }
+  .title-des{
+    font-size: 15px;
+  }
+  .view-more-link{
+    font-size: 10px;
+  }
+  .filter-logo{
+    margin: 10px 5px 0px;
+  }
+  .section-filter .tab-link-subtitle{
+    display: none;
+  }
+  .section-filter .tab-content input:first-child {
+    width: 100%;
+  }
+  .section-filter .tab-content input {
+    width: 32%;
+    margin: 10px 0px;
+  }
+  .section-filter .tab-content .btn-search {
+    width: 32%;
+  }
+  .information{
+    width: 100%;
+    margin: 0px 130px;
+  }
+  .social{
+    margin: 0px 130px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .section-title-group{
+    flex-wrap: wrap;
+  }
+  .filter-logo{
+    display: none;
+  }
+  .section-title-group{
+    padding-top: 100px;
+  }
+  .title-des{
+    color: #000;
+  }
+  .destinations-item{
+    width: 44%;
+  }
+  .section-filter .tab-link-title{
+    padding-bottom: 0px;
+    font-size: 13px;
+  }
+  .section-title-group{}
+}
