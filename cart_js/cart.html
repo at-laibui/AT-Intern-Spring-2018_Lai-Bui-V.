@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body class="new-product-page" onload="onloadCart()">
+  <header class="page-header">
+    <a id="cart">
+      <i class="fa fa-cart-plus"  aria-hidden="true"></i>
+    </a>
+    <span class="cart-product-number"></span>
+  </header>
+  <main class="page-main">
+    <section class="section-item container">
+      <table>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="table-cart"></tbody>
+      </table>
+    </section>
+  </main>
+  <footer class="page-footer">
+    Footer
+  </footer>
+  <script type="text/javascript" src="./cart.js"></script>
+</body>
+
+</html>
